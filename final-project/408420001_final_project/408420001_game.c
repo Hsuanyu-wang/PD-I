@@ -56,7 +56,7 @@ struct MTX create_map(void)
     struct MTX m;
     int x=0,y=0;
     //map data default
-    printf("Input the number of row and column for the map(at least 2*3 or 3*2):\n");
+    printf("Input two numbers of row and column for the map(at least 2 3 or 3 2):\n");
     scanf("%d %d",&x,&y);
     m.r=x;
     m.c=y;
